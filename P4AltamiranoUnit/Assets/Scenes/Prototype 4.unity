@@ -148,6 +148,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c86b0ecc099c8534ab8b67554eb53725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyCount: 0
+  waveNumber: 1
+  powerupPrefab: {fileID: 4774404486883647134, guid: 1c5a1ae4a3319c94c819cfcc4168b6f1, type: 3}
   enemyPrefab: {fileID: 1806071636955100806, guid: 22a41138c2466974ea083b62826ca6b2, type: 3}
 --- !u!4 &81912498
 Transform:
@@ -780,7 +783,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a634cd5d31371c54aaa7c7f4ef2069c3, type: 2}
+  - {fileID: 2100000, guid: 4c97b24d72ebade4d98acaf3b75c90ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
