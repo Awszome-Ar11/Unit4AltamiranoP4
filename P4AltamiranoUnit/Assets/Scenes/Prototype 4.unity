@@ -150,7 +150,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyCount: 0
   waveNumber: 1
-  powerupPrefab: {fileID: 4774404486883647134, guid: 1c5a1ae4a3319c94c819cfcc4168b6f1, type: 3}
+  powerupPrefabs:
+  - {fileID: 4774404486883647134, guid: 1c5a1ae4a3319c94c819cfcc4168b6f1, type: 3}
+  - {fileID: 4774404486883647134, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
   enemyPrefabs:
   - {fileID: 1806071636955100806, guid: 22a41138c2466974ea083b62826ca6b2, type: 3}
   - {fileID: 1806071636955100806, guid: ca96c4d463cde1045ac3dbf10be07adb, type: 3}
@@ -845,6 +847,65 @@ MonoBehaviour:
   speed: 5
   hasPowerup: 0
   powerupIndicator: {fileID: 397213434}
+  currentPowerUp: 0
+  rocketPrefab: {fileID: 5779052623846279525, guid: c3ce0ed9d70faeb41a65a90f5ac08bdf, type: 3}
+--- !u!1001 &1768069999
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 922262574897541763, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 922262574897541763, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 922262574897541763, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 922262574897541763, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 922262574897541763, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 922262574897541763, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 922262574897541763, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 922262574897541763, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 922262574897541763, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 922262574897541763, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774404486883647134, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
+      propertyPath: m_Name
+      value: PowerupRockets
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: adc98c86afec5404ba30b36e4b741a84, type: 3}
 --- !u!1 &1948038028
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,7 +962,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 922262574897541763, guid: 1c5a1ae4a3319c94c819cfcc4168b6f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.894
       objectReference: {fileID: 0}
     - target: {fileID: 922262574897541763, guid: 1c5a1ae4a3319c94c819cfcc4168b6f1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1022,3 +1083,4 @@ SceneRoots:
   - {fileID: 81912498}
   - {fileID: 2351526484840895108}
   - {fileID: 1141851433}
+  - {fileID: 1768069999}
